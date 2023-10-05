@@ -1,0 +1,96 @@
+/* Scroll bar stylings */
+::-webkit-scrollbar {
+    width: 5px;
+    height: 5px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+    background: var(--lightestgrey);
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+    background: #88888888;
+    border-radius: 5px;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+    background: #555555a9;
+}
+body {
+    font-family: 'Poppins', sans-serif;
+}
+/* .btn-primary {
+    background-color: #0353A4 !important;
+    border-color:#0353A4 !important;
+}
+.btn-primary:hover {
+    background-color:#0466C8 !important;
+    border-color:#0466C8 !important;
+}
+.btn-outline-primary{
+    border-color: #0353A4 !important;
+    color: #0353A4 !important;
+}
+.btn-outline-primary:hover {
+    background-color: #0353A4 !important;
+    border-color: #0353A4 !important;
+    color:white !important;
+} */
+.background-radial-gradient {
+    background-color: hsl(218, 41%, 15%);
+    background-image: radial-gradient(650px circle at 0% 0%,
+            hsl(218, 41%, 35%) 15%,
+            hsl(218, 41%, 30%) 35%,
+            hsl(218, 41%, 20%) 75%,
+            hsl(218, 41%, 19%) 80%,
+            transparent 100%),
+        radial-gradient(1250px circle at 100% 100%,
+            hsl(218, 41%, 45%) 15%,
+            hsl(218, 41%, 30%) 35%,
+            hsl(218, 41%, 20%) 75%,
+            hsl(218, 41%, 19%) 80%,
+            transparent 100%);
+}
+.bg-gradient-primary{
+    background-color: hsl(218, 41%, 15%);
+        background-image: radial-gradient(650px circle at 0% 0%,
+                hsl(218, 41%, 35%) 15%,
+                hsl(218, 41%, 30%) 35%,
+                hsl(218, 41%, 20%) 75%,
+                hsl(218, 41%, 19%) 80%,
+                transparent 100%),
+            radial-gradient(1250px circle at 100% 100%,
+                hsl(218, 41%, 45%) 15%,
+                hsl(218, 41%, 30%) 35%,
+                hsl(218, 41%, 20%) 75%,
+                hsl(218, 41%, 19%) 80%,
+                transparent 100%);
+                color: white;
+                border-color: hsl(218, 62%, 31%) 35%,;
+}
+.bg-gradient-primary:hover{
+/* border: 2px solid !important; */
+color:white;
+border-color: #0353A4;
+/* border-color: #0353A4; */
+}
+.bg-gradient-primary:focus {
+    color: white !important;
+    font-weight: 500 !important;
+    border-color: #0353A4;
+}
+
+.bg-glass {
+    background-color: hsla(0, 0%, 100%, 0.6) !important;
+    backdrop-filter: saturate(200%) blur(25px) !important;
+}
+.cursor-pointer {
+    cursor: pointer;
+}
+.error {
+    font-size: small;
+    color: rgb(216, 34, 21);
+}

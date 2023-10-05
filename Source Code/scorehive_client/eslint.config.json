@@ -1,0 +1,26 @@
+{
+  "root": true,
+  "env": {
+    "node": true,
+    "browser": true,
+    "es2021": true
+  },
+  "extends": [
+    "plugin:vue/vue3-recommended",
+    "eslint:recommended",
+    "@vue/prettier"
+  ],
+  "parserOptions": {
+    "parser": "vue-eslint-parser",
+    "ecmaVersion": "latest",
+    "sourceType": "module"
+  },
+  "rules": {
+    "no-console": "error",
+    "no-debugger": "error",
+    "vue/no-unused-components": "warn",
+    "vue/no-unused-vars": "warn",
+    "vue/prop-name-casing": ["error", "camelCase"],
+    "vue/html-indent": ["error", 2]
+  }
+}
